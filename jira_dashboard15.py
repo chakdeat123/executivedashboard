@@ -27,8 +27,10 @@ def check_password():
         st.markdown("#### Please login to continue")
         
         with st.form("login_form"):
-            username = st.text_input("Username", placeholder="Enter username")
-            password = st.text_input("Password", type="password", placeholder="Enter password")
+            # username = st.text_input("Username", placeholder="Enter username")
+            username = 'amit'
+            # password = st.text_input("Password", type="password", placeholder="Enter password")
+            password = 'amit'
             submitted = st.form_submit_button("Login", use_container_width=True)
             
             if submitted:
